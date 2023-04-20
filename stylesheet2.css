@@ -1,0 +1,250 @@
+input[type=text] {
+    width: 70%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+input[type=email] {
+    width: 45%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #4164ff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #808080;
+}
+
+input[type=password] {
+    width: 70%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+input[type=checkbox] {
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 30;
+    padding: 4px 15px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: poppins medium;
+    font-size: 15px;
+    color:white;
+    background-color: #4164ff;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    border: none;
+}
+
+/* -------------------------------------------------------NEWS PAGE-------------------------------------------------------------- */
+input.newsmail[type=text] {
+    width: 45%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    color: black;
+    display: inline-block;
+    border: 1.5px solid #4164ff;
+    opacity: 50%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 18px;
+}
+label.newsmail[for=email] {
+    font-family: product sans regular;
+    font-size:18px;
+    color: #4164ff;
+    padding-right:10px;
+}
+
+/* -----------------------------------------------P  A  Y  M  E  N  T      P  A  G  E-------------------------------------------- */
+.boxforpay {
+    border: none;
+    box-shadow:0 2.5px 12px 4px rgba(0,0,0,0.09);
+    border-radius:10px;
+    width:50%;
+    height:470px;
+    margin:2% 0 0 0;
+    padding-top:30px;
+    background-color: #ffffff;
+}
+
+input.payfname[type=text] {
+    width: 80%;
+    display: inline-block;
+    margin-bottom:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+input.paylname[type=text] {
+    width: 80%;
+    display: inline-block;
+    margin-bottom:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+label.spaces {
+    font-family: product sans regular;
+    font-size:15px;
+    color: #595959;
+    margin-left:25px;
+    float:left;
+}
+select.spaces {
+    width: 90%;
+    padding:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+.tandc1 {
+    font-family: product sans light;
+    font-size: 15px;
+    color: #404040;
+    margin-right:10px;
+}
+
+/* LINK STYLE FOR TERMS AND CONDITIONS ON FORMS  OF P  A  Y  M  E  N  T  S ------ P  A  G  E --------------------*/
+a.tandc1:link {
+    font-family: product sans light;
+    font-size: 13px;
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc1:visited {
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc1:hover {
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc1:active {
+    color: #111111;
+    background-color: none;
+}
+
+#homebtn {
+    font-family: poppins regular;
+    background-color: #2044e0;
+    color: #999999;
+    padding: 5px 20px;
+    font-size: 17px;
+    border:none;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+select. {
+    width: 25%;
+    padding:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid rgb(102, 102, 255);
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: rgb(102, 102, 255);
+    cursor:pointer;
+}
+
+select.spaces3 {
+    width: 50%;
+    padding:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 18px;
+    color: #595959;
+    cursor:pointer;
+}
+
+input.job[type=date] {
+    width: 85%;
+    padding: 9px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+/* ----------------------------------------------------FORM FOR JOB APPLICATION------------------------------------------------- */
+input.job[type=text] {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}
+
+td.job {
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+}

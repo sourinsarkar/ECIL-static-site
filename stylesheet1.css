@@ -1,0 +1,785 @@
+body {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+hr {
+    background-color:black;
+    opacity: 5%;
+}
+
+.header {
+    margin: 5px auto 5px auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img {
+    float: left;
+    margin: auto 10px 10px 15px; 
+}
+
+/*MAIN NAVIGATION BAR STYLE CODES----------------------------------------------------------*/
+.nav ul {
+    list-style-type: none;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0 5% auto 5%;
+    border: none;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 30px;
+}
+
+.nav ul:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 140, 255, 0.3);
+    transition-duration: 0.7s;
+}
+
+.nav li{
+    display: inline-block;
+    line-height:40px;
+}
+
+.nav a{
+    font-family: poppins light;
+    font-size: 17px;
+    color: #999999;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.nav a:hover {
+    color: #404040;
+    transition-duration: 0.7s;
+}
+
+/*HEAD WRITING TYPES---------------------------------------------------------------------------------*/
+h1.htype1 {
+    font-family: poppins light;
+    background-color: none;
+    color: #404040;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 26px;
+}
+
+h1.htype2 {
+    font-family: poppins regular;
+    background-color: none;
+    color: #404040;
+    font-size: 20px;
+    margin: 2px 0 0 10px;
+}
+
+h1.htype3 {
+    font-family: product sans regular;
+    background-color: none;
+    color: #404040;
+    font-size: 18px;
+    margin: 10px auto 10px 10px;
+}
+
+h1.htype4 {
+    font-family: product sans light;
+    background-color: none;
+    color: #404040;
+    font-size: 18px;
+    margin: 10px auto 10px 10px;
+}
+
+h1.htype5 {
+    font-family: product sans light;
+    background-color: none;
+    color: #404040;
+    font-size: 60px;
+    margin:110px 0px 20px 40px;
+    text-align:left;
+}
+
+h2.htype1 {
+    font-family: poppins medium;
+    background-color: none;
+    color: #404040;
+    font-size: 30px;
+    margin: 12px 10px 0 10px;
+}
+
+h2.htype2 {
+    font-family: poppins medium;
+    background-color: none;
+    color: #f2f2f2;
+    font-size:30px;
+    padding-left: 1px;
+    margin: 10px;
+}
+
+h3.htype1 {
+    font-family: poppins medium;
+    background-color: none;
+    color: #404040;
+    font-size: 60px;
+    margin: 12px 10px 0 10px;
+    padding-top: 80px;
+}
+
+/*NORMAL STYLE PARAGRAPH------------------------------------------------------------------------------*/
+p.justified {
+    font-family: product sans light;
+    font-size: 20px;
+    color: #999999;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+/* PARAGRAPH FOR FEED BOXES IN HOME----------------------------------------------------------------- */
+p.forfeeds {
+    font-family: product sans regular;
+    font-size: 15px;
+    color: #999999;
+    margin: 5px 10px 0 10px;
+}
+
+p.forbpage {
+    font-family: product sans light;
+    font-size: 18px;
+    color: #808080;
+    line-height:25px;
+    text-align:left;
+    margin-bottom:40px;
+}
+
+p.forb1page {
+    font-family: product sans light;
+    font-size: 18px;
+    color: #808080;
+    line-height:25px;
+    text-align:left;
+    margin:5px 20px 40px 40px; 
+}
+
+/*STYLE FOR NORMAL LINKS IN PARAGRAPGH---------------------------------------------------------------*/
+a.links:link {
+    font-family: product sans light;
+    font-size: 20px;
+    color: #007fff;
+    text-decoration: none;
+}
+
+a.links:visited {
+    color: #007fff;
+    text-decoration: none;
+}
+
+a.links:hover {
+    color: #007fff;
+    text-decoration: none;
+}
+
+a.links:active {
+    color: #111111;
+    text-decoration: none;
+}
+
+/* FOR LATEST UPDATES SECTION -----------------------------------------------------------------------*/
+a.links2:link {
+    font-family: product sans medium;
+    font-size: 15px;
+    color: #2044e0;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+a.links2:visited {
+    color: #2044e0;
+    text-decoration: none;
+}
+
+a.links2:hover {
+    color: #404040;
+    text-decoration: underline;
+}
+
+a.links2:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* FOR "COMPLETE STORY" BUTTON ON FEED SECTION---------------------------------------------------- */
+a.links3:link {
+    font-family: product sans medium;
+    font-size: 15px;
+    color: #808080;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a.links3:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+a.links3:hover {
+    color: #404040;
+    text-decoration: underline;
+}
+
+a.links3:active {
+    color: #404040;
+    text-decoration: underline;
+}
+
+/* LINK FOR FAQ SECTION------------------------------------------------------------------------ */
+a.links4:link {
+    font-family: product sans medium;
+    font-size: 15px;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+a.links4:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a.links4:hover {
+    text-decoration: underline;
+}
+
+a.links4:active {
+    text-decoration: underline;
+}
+
+/* PARAGRAPH STYLE FOR TERMS AND CONDITIONS------------------------------------------------------ */
+.tandc {
+    font-family: product sans light;
+    font-size: 11px;
+    color: #404040;
+    background-color: none;
+}
+
+/* LINK STYLE FOR TERMS AND CONDITIONS ON FORMS ----------------------------------------------------------*/
+a.tandc:link {
+    font-family: product sans light;
+    font-size: 11px;
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc:visited {
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc:hover {
+    color: #007fff;
+    background-color: none;
+}
+
+a.tandc:active {
+    color: #111111;
+    background-color: none;
+}
+
+/* STYLING FOR MAIN SECTIONS -----------------------------------------------------------------*/
+#rmain {
+    width: 15%;
+    float: right;
+    height: 100px;
+}
+
+#lmain {
+    width: 15%;
+    float: left;
+    height: 100px;
+    
+}
+
+#mmain {
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+/* BUTTON FOR MENU -------------------------------------------------------------------------*/
+.dropbtn {
+    font-family: poppins light;
+    background-color: white;
+    color: #999999;
+    padding: 10px 30px 10px 20px;
+    font-size: 17px;
+    margin: 33% auto auto 20%;
+    border: 1px solid #c2c2c2;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  
+.dropdwn {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdwn-parts {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 20px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.09);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+.dropdwn-parts a {
+    font-family: product sans regular;
+    color: #808080;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdwn-parts > a:hover {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+  
+.dropdwn:hover > .dropdwn-parts {
+    display: block;
+}
+  
+.dropbtn:hover {
+    background-color: #404040;
+    transition-duration: 0.3s;
+    color: #c2c2c2;
+}
+
+/* FOR BILL PAYMENY ------------------------------------------------------------------------*/
+.btn {
+    font-family: poppins regular;
+    background-color: #2044e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 20% auto auto 20%;
+    border: 1px solid #c2c2c2;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+
+  .btn4 {
+    font-family: product sans regular;
+    background-color: #ffffff;
+    color: #007fff;
+    padding:5px 10px;
+    font-size: 15px;
+    
+    border: 1.5px solid #007fff;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+
+/* STYLING FOR MAIN SECTIONS --------------------------------------------------------------*/
+#rmain2 {
+    width: 25%;
+    float: right;
+}
+
+#lmain2 {
+    width: 25%;
+    float: left;
+}
+
+#mmain2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* BORDER FOR FEEDS--------------------------------------------------------------------- */
+#feedbdr {
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.09);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* FOR STATES GRAPHICS ON HOME PAGE---------------------------------------------------- */
+.icontainer {
+    position: relative;
+    width: 250px;
+    height: 312px;
+}
+
+img.hiright {
+    margin-top: 1px;
+}
+
+.btextimg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* FOR FAQ BORDER--------------------------------------------------------------------- */
+.boxbdr {
+    background-color: #ff8370;
+    border: 0.5px solid #ff8370;
+    border-radius: 8px;
+    margin: 8px 10px 0 2px;
+    padding-right: 10px;
+}
+
+/* BORDER FOR LOGIN DIVISION TAG IN HOME PAGE---------------------------------------- */
+#loghbdr {
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.section1 {
+    width: 55%;
+    float: left;
+    line-height: 100px;
+    background-image: url(backcircles.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+}
+.section2 {
+    width: 45%;
+    float: right;
+    line-height: 100px;
+}
+.vidbdr {
+    width: 500px;
+    height: 372px;
+    margin: 20px 0 0 20px;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.btn2 {
+    font-family: product sans medium;;
+    background-color: #ffffff;
+    color: #808080;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 10px;
+    border: 2px solid #808080;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#solarcnt{
+    margin-bottom: 420px;
+}
+
+/* FOOTER-------------------------------------------------------------------------- */
+#fdivl {
+    width: 69.94%;
+    float:left;
+    background-color: #fbfbfb;
+    border-right: 0.5px solid #d9d9d9;
+}
+
+#fdivr {
+    width: 30%;
+    float: right;
+    background-color: #fbfbfb;
+    height: 310px;
+}
+
+table, th, td {
+    border: none;
+    margin: 20px auto 0 20px;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    width: 60%;
+}
+
+th {
+    font-family: product sans light;
+    font-size: 18px;
+    color: #595959;
+    padding: 1px 15px;
+    text-align: left;
+}
+
+a.linkst:link {
+    font-family: product sans light;
+    font-size: 18px;
+    color: #404040;
+    text-decoration: none;
+}
+
+a.linkst:visited {
+    color: #404040;
+    text-decoration: none;
+}
+
+a.linkst:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.linkst:active {
+    color: #404040;
+    text-decoration: none;
+}
+
+p.addh {
+    font-family: product sans light;
+    font-size: 20px;
+    color: #262626;
+}
+
+address {
+    font-family: product sans light;
+    font-size: 18px;
+    color: #595959;
+}
+
+/* ---------------------------------------------------------FOR LOCATION PAGE------------------------------------------------------ */
+.locimg {
+    border:none;
+    border-radius: 15px;
+}
+
+.locontext1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+table.tloc, td.tloc, th.tloc {
+    border: 0.5px solid #c2c2c2;
+    border-collapse: collapse;
+    width: auto;
+}
+
+table.tloc {
+    margin: 40px auto 0 auto;
+    border: none;
+}
+
+th.tloc {
+    font-family: poppins light;
+    font-size:20px;
+    text-align:left;
+    padding: 40px;
+    color: #595959;
+    border:none;
+    background-color:#f7f7f7;
+}
+
+td.tloc {
+    font-family: product sans light;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 100px 0 100px;
+    text-align: left;
+    color: #595959;
+}
+
+tr.tloc:hover {
+    background-color:#f9f9f9;
+    transition-duration:0.5s;
+    transform: scale(1.09);
+	transition: transform 200ms ease-in;
+}
+
+#loctable {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.09);
+    margin: auto 242px 40px 242px; 
+}
+/* ---------------------------------------------------------------------FOR NEWS PAGE--------------------------------------------- */
+#lbox {
+    float:left;
+    width:15%;
+}
+#mbox{
+    margin: 0 auto;
+    width:70%;
+}
+#rbox{
+    float:right;
+    width:15%;
+}
+#lbox1 {
+    float:left;
+    width:50%;
+}
+#rbox1{
+    float:right;
+    width:50%;
+}
+    
+#headnewsvid {
+    width:450px;
+    height: 253px;
+    margin:100px 0 0 40px;
+    border-radius: 5mm;
+    box-shadow: 0px 2px 15px 1px rgba(153, 153, 255,0.6);
+}
+.newsbdr {
+    border:none;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.09);
+    border-radius: 10px;   
+}
+
+.newsbdr:hover {
+    border:none;
+    box-shadow: 0px 8px 20px 0px rgba(0,140,255,0.4);
+    transition-duration: 0.5s;
+    border-radius: 10px;   
+}
+
+.secsrc1 {
+    border:none;
+    box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.2);
+    width: 95%;
+    height:500px;
+    margin:10px 10px 30px 20px;
+}
+.secsrc2 {
+    border:none;
+    box-shadow: 2px 0px 15px 1px rgba(0,0,0,0.2);
+    width: 95%;
+    height:500px;
+    margin:10px 10px 30px 10px;
+}
+/* NAVIGATION ON FOOTER SECTION ---------------------------------------------------------------------------*/
+.navf ul {
+    list-style-type: none;
+    background-color: #fbfbfb;
+    text-align: left;
+    padding: 5px 0 0 0;
+    margin: 0 0 0 4%;
+}
+
+.navf li{
+    display: inline-block;
+    line-height: 0px;
+}
+
+.navf a{
+    font-family: poppins light;
+    font-size: 17px;
+    color: #999999;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navf a:hover {
+    color: #404040;
+    transition-duration: 0.7s;
+}
+
+/* ------------------------------------------  F  O  R  ----  A  L L ---- I   N  D  E  X------------------------------ */
+table.tloc1, td.tloc1, th.tloc1 {
+    border: 0.5px solid #c2c2c2;
+    border-collapse: collapse;
+    width: auto;
+}
+
+table.tloc1 {
+    margin: 40px auto 0 auto;
+    border: none;
+}
+
+th.tloc1 {
+    font-family: poppins light;
+    font-size:20px;
+    text-align:left;
+    padding: 20px 40px;
+    color: #ffffff;
+    border:none;
+    background-color:#944dff;
+    text-align:center;
+    position: sticky;
+    top: 0;
+}
+
+td.tloc1 {
+    font-family: product sans light;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin: 0 100px 0 100px;
+    text-align: left;
+    color: #595959;
+    text-align:center;
+}
+
+tr.tloc1 {
+    background-color:#ffffff;
+}
+
+tr.tloc1:hover {
+    background-color:#e6e6ff;
+    transition-duration:0.5s;
+    transform: scale(1.09);
+	transition: transform 200ms ease-in;
+}
+
+#loctable1 {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.09);
+    margin:0 242px 40px 242px; 
+}
+
+.forbgimage {
+    background-image: url(bgai.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:right 100px;
+    background-attachment:fixed;
+}
+
+.btn3 {
+    font-family: poppins regular;
+    background-color: #2044e0;
+    color: #ffffff;
+    padding: 8.5px 10px;
+    font-size: 17px;
+    margin: 2px;
+    border: 1px solid #c2c2c2;
+    border-radius: 1000px;
+    line-height: 15px;
+    cursor: pointer;
+  }
+
+  /* ------------------------------------------------F  O  R --- O  U  R--- B  U  S  I  N  E  S  S------ */
+.leftside {
+    float:left;
+}
+.middleside {
+  float:left;
+}
+.rightside {
+    float:right;
+}
+/* ---------------------------------FOR CAREERS PAGE -----------G  R  I  D    -----IN ----- F O O T E R----------------- */
+form.grid {
+    display: grid;
+    width:25%;
+}

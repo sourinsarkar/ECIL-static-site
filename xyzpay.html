@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <title>Pay Bills</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet1.css">
+        <link rel="stylesheet" href="stylesheet2.css">
+        <script src="jsforproject.js"></script>
+    </head>
+    <body>
+
+        <div id="mbox">
+            <center>
+            <a href="hometry.html"><button id="homebtn" style="margin-top:3%;background-color:#ffffff;"><img src="homeicon.png" alt="home" width="25" height="25" style="vertical-align:base;"></button></a>
+            </center>
+        </div>
+    
+        <div>
+            <center>
+            <div class="boxforpay">
+                <div id="lbox" style="width:30%;">
+                    <img src="paypgimg2.png" alt="image" style="width:215px;height:400px;">
+                </div>
+                <div id="rbox" style="width:70%;">
+                    <div id="alertboxes">
+                        <form name="payForm" method="post" onsubmit="validate()">
+                            <div style="float:left;width:50%;">
+                                <label for="fname" class="spaces">First Name</label><br>
+                                <input type="text" id="fname" name="First Name" class="payfname" placeholder="Sourin,ex">
+                            </div>    
+
+                            <div style="float:right;width:50%;">
+                                <label for="lname" class="spaces">Last Name</label><br>
+                                <input type="text" id="lname" name="Last Name" class="paylname" placeholder="Sarkar,ex">
+                            </div>
+
+                            <div style="float:left;width:50%;">
+                                <label for="custid" class="spaces">Customer ID</label><br>
+                                <input type="text" id="custid" name="Customer ID" class="paylname" placeholder="7858XXXX">
+                            </div>
+                        
+                            <div style="float:right;width:50%;">
+                                <label for="pincode" class="spaces">PIN Code</label><br>
+                                <input type="text" id="pincode" name="PIN" class="paylname" placeholder="11XXXX">
+                            </div>
+
+                            <label for="region" class="spaces" style="margin-bottom:5px;">My region</label><br>
+                            <select name="region" id="region" class="spaces">
+                                <option value="select" checked>Select</option>
+                                <option value="andhra pradesh">Andhra Pradesh</option>
+                                <option value="arunachal pradesh">Arunachal Pradesh</option>
+                                <option value="asaam">Assam</option>
+                                <option value="bihar">Bihar</option>
+                                <option value="chhatisgarh">Chhatisgarh</option>
+                                <option value="goa">Goa</option>
+                                <option value="gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="madhya pradesh">Madhya Pradesh</option>
+                                <option value="maharahtra">Maharashtra</option>
+                                <option value="manipur">Manipur</option>
+                                <option value="meghalaya">Meghalaya</option>
+                                <option value="nagaland">Nagaland</option>
+                                <option value="odisha">Odisha</option>
+                                <option value="punjab">Punjab</option>
+                                <option value="rajasthan">Rajasthan</option>
+                                <option value="sikkim">Sikkim</option>
+                                <option value="tamil nadu">Tamil Nadu</option>
+                                <option value="tripura">Tripura</option>
+                                <option value="telangana">Telangana</option>
+                                <option value="uttar pradesh">Uttar Pradesh</option>
+                                <option value="uttarakhand">Uttarakhand</option>
+                                <option value="west bengal">West Bengal</option>
+                                <option value="andaman and nicobar islands">Andaman and Nicobar Islands</option>
+                                <option value="chandigarh">Chandigarh</option>
+                                <option value="dadar & nagar haveli and daman & diu">Punjab</option>
+                                <option value="delhi">Delhi</option>
+                                <option value="jammu and kashmir">Jammu and Kashmir</option>
+                                <option value="lakhshadweep">Lakhsadweep</option>
+                                <option value="puducherry">Puducheery</option>
+                                <option value="ladakh">Ladakh</option>
+                            </select>
+                            <hr style="margin:5px 20px 5px 20px;">
+
+                            <div style="width:100%;">
+                                <label for="cardnum" class="spaces">Card Number</label><br>
+                                <input type="text" id="cardnum" name="Card Number" class="paylname" style="width:90%;" placeholder="XXXXXXXXXXXXXXX">
+                            </div>
+
+                            <div style="float:left;width:50%;">
+                                <label for="expdate" class="spaces">Exp. Date</label><br>
+                                <input type="date" id="expdate" name="Exp. Date" class="job" placeholder="DD/MM/YYYY">
+                            </div>    
+
+                            <div style="float:right;width:50%;">
+                                <label for="vcc" class="spaces">VCC</label><br>
+                                <input type="text" id="vcc" name="VCC" class="paylname" placeholder="XXX">
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="payterms" name="Terms and Conditions" style="float:left;margin-left:20px;">
+                                <label for="payterms"><p class="tandc1">I have read all the <a href="#" class="tandc1" target="_blank">T&C.</a></p> </label>
+                            </div>
+                            
+                            <input type="submit" value="Proceed & Pay" style="margin-left:20px;float:left;">
+                        </form>
+                    </div>    
+                </div>
+            </div>
+            </center>
+        </div>
+    </body>
+</html>
